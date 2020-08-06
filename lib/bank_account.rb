@@ -23,6 +23,7 @@ class BankAccount
     else 
       puts "invalid"
     end 
+  end 
 
   
   

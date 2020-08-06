@@ -13,11 +13,11 @@ class BankAccount
     self.balance += amount 
   end 
   
-  def display_balance(amount)
-    @balance << deposit 
+  def display_balance
+    @balance 
   end 
-    
-  
+   
+  def valid?
 
   
   

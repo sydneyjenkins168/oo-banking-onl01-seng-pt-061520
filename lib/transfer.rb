@@ -10,7 +10,7 @@ class Transfer
   end 
   
   def both_valid?
-    sender.BankAccount.valid? && receiver.BankAccount.valid? ? true : false 
+    sender.valid? && receiver.valid? 
   end 
   
 end 

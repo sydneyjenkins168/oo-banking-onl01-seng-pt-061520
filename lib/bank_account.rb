@@ -25,4 +25,7 @@ class BankAccount
     self.status= "closed"
   end 
   
+  def both_valid?
+    
+  
 end 
